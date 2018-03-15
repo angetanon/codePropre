@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class ZoneAnimal {
 
-	protected List<Animal> animaux = new ArrayList<Animal>();
+	protected List<Animal> animaux ;
 	protected String nom;
 
 	public ZoneAnimal(String nom) {
@@ -25,7 +25,7 @@ public abstract class ZoneAnimal {
 
 	public void afficherListeAnimaux() {
 		for (Animal animal : animaux) {
-			System.out.println(animal.getNom());
+			System.out.println(animal);
 		}
 	}
 

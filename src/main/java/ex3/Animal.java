@@ -35,4 +35,10 @@ public class Animal {
 		this.comportement = comportement;
 	}
 
+
+	@Override
+	public String toString() {
+		return "nom=" + nom + ", typeAnimal=" + typeAnimal + ", comportement=" + comportement ;
+	}
+
 }
